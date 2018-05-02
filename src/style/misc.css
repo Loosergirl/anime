@@ -3,3 +3,17 @@
   overflow: hidden;
   margin-left: -4px;
 }
+
+.greatVibes {
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 1px 2px 8px;
+  color: #272759;
+  font-weight: normal;
+  text-align: center;
+  font-size: 10rem;
+}
+
+.greatVibes .letter {
+  display: inline-block;
+  line-height: 1em;
+}

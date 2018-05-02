@@ -13,3 +13,16 @@ var lineDrawing = anime({
   direction: 'alternate',
   loop: false
 });
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.greatVibes .letter',
+    scale: [1.2,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 3000,
+    delay: function(el, i) {
+      return i * 400;
+    }
+  });

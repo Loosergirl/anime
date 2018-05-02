@@ -172,7 +172,7 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./m
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = widthCheck;\nfunction widthCheck() {\n  var toShow = Math.ceil(window.innerWidth / 200);\n  var swirls = document.getElementsByClassName('swirl');\n  console.log(toShow);\n\n  for (var i = 9; i >= toShow; i--) {\n    swirls[i].setAttribute(\"style\", \"display: none;\");\n  }\n}\n\n//# sourceURL=webpack:///./src/widthCheck.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = widthCheck;\nfunction widthCheck() {\n  var toShow = Math.ceil(window.innerWidth / 200);\n  var swirls = document.getElementsByClassName('swirl');\n\n  for (var i = 9; i >= toShow; i--) {\n    swirls[i].setAttribute(\"style\", \"display: none;\");\n  }\n}\n\n//# sourceURL=webpack:///./src/widthCheck.js?");
 
 /***/ }),
 

@@ -1,5 +1,8 @@
 import anime from 'animejs';
+import widthCheck from "./widthCheck.js";
 import css from "./style/misc.css";
+
+widthCheck();
 
 var lineDrawing = anime({
   targets: '#lineDrawing .lines path',
@@ -8,5 +11,5 @@ var lineDrawing = anime({
   duration: 1500,
   delay: function(el, i) { return i * 250 },
   direction: 'alternate',
-  loop: true
+  loop: false
 });

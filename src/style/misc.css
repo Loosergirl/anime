@@ -1,0 +1,5 @@
+#lineDrawing {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: -4px;
+}

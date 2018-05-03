@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #lineDrawing {
   white-space: nowrap;
   overflow: hidden;
@@ -9,11 +13,12 @@
   text-shadow: 1px 2px 8px;
   color: #272759;
   font-weight: normal;
-  text-align: center;
   font-size: 10rem;
+  text-align: center;
 }
 
 .greatVibes .letter {
   display: inline-block;
   line-height: 1em;
 }
+

@@ -90,7 +90,7 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_FAC
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#lineDrawing {\\r\\n  white-space: nowrap;\\r\\n  overflow: hidden;\\r\\n  margin-left: -4px;\\r\\n}\\r\\n\\r\\n.greatVibes {\\r\\n  font-family: 'Great Vibes', cursive;\\r\\n  text-shadow: 1px 2px 8px;\\r\\n  color: #272759;\\r\\n  font-weight: normal;\\r\\n  text-align: center;\\r\\n  font-size: 10rem;\\r\\n}\\r\\n\\r\\n.greatVibes .letter {\\r\\n  display: inline-block;\\r\\n  line-height: 1em;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style/misc.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\r\\n  margin: 0;\\r\\n}\\r\\n\\r\\n#lineDrawing {\\r\\n  white-space: nowrap;\\r\\n  overflow: hidden;\\r\\n  margin-left: -4px;\\r\\n}\\r\\n\\r\\n.greatVibes {\\r\\n  font-family: 'Great Vibes', cursive;\\r\\n  text-shadow: 1px 2px 8px;\\r\\n  color: #272759;\\r\\n  font-weight: normal;\\r\\n  font-size: 10rem;\\r\\n  text-align: center;\\r\\n}\\r\\n\\r\\n.greatVibes .letter {\\r\\n  display: inline-block;\\r\\n  line-height: 1em;\\r\\n}\\r\\n\\r\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style/misc.css?./node_modules/css-loader");
 
 /***/ }),
 
